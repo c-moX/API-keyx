@@ -37,19 +37,19 @@
 
         // Step: 03
         // Explore fun tasks with bored api:
-        // function doSomething(){
-        //     fetch('http://www.boredapi.com/api/activity/')
-        //     .then(response => response.json())
-        //     .then(data => {
-        //         document.getElementById("activity").innerHTML = data.activity;
-        //     });
-        // }
-        // doSomething();
+        function doSomething(){
+            fetch('http://www.boredapi.com/api/activity/')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("activity").innerHTML = data.activity;
+            });
+        }
+        doSomething();
 
-        // // xxx::xxx
-        // setInterval(() => {
-        //     doSomething();
-        // }, 1000);
+        // xxx::xxx
+        setInterval(() => {
+            doSomething();
+        }, 1000);
 
 
         // Step: 04
@@ -66,4 +66,3 @@
                 });
         }
         differentUserName();
-        
