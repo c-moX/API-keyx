@@ -1,1 +1,1 @@
-# API-DATA-JSON
+# API-DATA-JSON-structure
